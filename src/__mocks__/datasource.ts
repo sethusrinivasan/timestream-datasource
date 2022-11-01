@@ -9,6 +9,7 @@ export const mockDatasource = new DataSource({
   type: 'timestream-datasource',
   name: 'Timestream Data Source',
   jsonData: {},
+  access: 'proxy',
   meta: {
     id: 'timestream-datasource',
     name: 'Timestream Data Source',
@@ -42,10 +43,8 @@ export const mockDatasourceOptions: DataSourcePluginOptionsEditorProps<Timestrea
     type: '',
     access: '',
     url: '',
-    password: '',
     user: '',
     basicAuth: false,
-    basicAuthPassword: '',
     basicAuthUser: '',
     database: '',
     isDefault: false,
