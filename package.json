@@ -23,16 +23,16 @@
   "dependencies": {
     "@grafana/experimental": "^0.0.2-canary.39",
     "@emotion/css": "^11.1.3",
-    "@grafana/data": "9.2.1",
-    "@grafana/runtime": "9.2.1",
-    "@grafana/ui": "9.2.1",
+    "@grafana/data": "8.5.10",
+    "@grafana/runtime": "8.5.10",
+    "@grafana/ui": "8.5.10",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
     "@grafana/aws-sdk": "0.0.37",
-    "@grafana/e2e": "9.2.1",
-    "@grafana/e2e-selectors": "9.2.1",
+    "@grafana/e2e": "8.5.10",
+    "@grafana/e2e-selectors": "8.5.10",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@types/lodash": "latest",
